@@ -404,7 +404,6 @@ footer span {
 	}
 }
 @media (max-width: 520px) {
-	header { height: 5.5rem; }
 	html {
 		font-size: 10px;
 	}
@@ -423,6 +422,9 @@ footer span {
 		width: 20rem;
 		height: 4rem;
 	}
+	.contacts .container .card {
+		flex-basis: 80%;
+	}
 }
 @media (max-width: 406px) {
 	html {
@@ -432,9 +434,6 @@ footer span {
 @media (max-width: 358px) {
 	html {
 		font-size: 8px;
-	}
-	.contacts .container .card {
-		flex-basis: 80%;
 	}
 	.contacts .container div:last-of-type h3 {
 		font-size: 2rem;
