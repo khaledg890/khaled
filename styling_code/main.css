@@ -49,7 +49,7 @@ body {
 }
 header {
 	background-color: var(--darker-blue);
-	height: 4em;
+	height: 4rem;
 }
 header .container {
 	position: relative;
