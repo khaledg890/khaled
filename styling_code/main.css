@@ -430,6 +430,9 @@ footer span {
 	html {
 		font-size: 9px;
 	}
+	header { height: 5rem;
+	}
+	
 }
 @media (max-width: 358px) {
 	html {
@@ -441,6 +444,15 @@ footer span {
 }
 @media (max-width: 335px) {
 	.intro .container .text h1 {
-		font-size: 4rem;
+		font-size: 4.1rem;
+	}
+	.container > .logo,
+	i {
+		font-size: 3rem;
+	}
+}
+@media (max-width: 301px) {
+	.intro .container .text h1 {
+		font-size: 3.8rem;
 	}
 }
